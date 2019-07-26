@@ -4,7 +4,7 @@
 #
 Name     : mvn-plexus-classworlds
 Version  : 1.2.alpha.7
-Release  : 3
+Release  : 4
 URL      : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.jar
 Source0  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.jar
 Source1  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.pom
