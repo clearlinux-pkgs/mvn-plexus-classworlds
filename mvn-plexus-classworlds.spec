@@ -4,7 +4,7 @@
 #
 Name     : mvn-plexus-classworlds
 Version  : 1.2.alpha.7
-Release  : 7
+Release  : 8
 URL      : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.jar
 Source0  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.jar
 Source1  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.pom
@@ -22,6 +22,8 @@ Source12  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworld
 Source13  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom
 Source14  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
 Source15  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+Source16  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar
+Source17  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 Plexus
@@ -94,6 +96,12 @@ cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/pl
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2
 cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom
+
 
 %files
 %defattr(-,root,root,-)
@@ -115,3 +123,5 @@ cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/pl
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar
+/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom
